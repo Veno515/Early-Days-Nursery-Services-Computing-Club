@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> MY PROFILE WEBSITE </title>
+<style>
+    p,ul {
+        font-size: 28px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .content {
+        justify-content: left;
+    }
+    @media screen and (min-width: 480px) {
+        ul{
+            font-size: 28px;
+        }
+        .content {
+            margin: 0 25% 0 ;
+            padding: 0;
+            border: 1px dotted grey;
+        }
+       
+    }
+    @media screen and (max-width: 480px) {
+        p, ul{
+            font-size: 24px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        h3 {
+            font-size: 28px;
+        }
+        .content {
+            /* margin: 0 25% 0 ;
+            padding: 5%; */
+            width: 100%;
+            margin-left: 5%;
+            border: none;
+        }
+
+        .myImage {
+        width: 10%;
+        min-width: 350px;
+        height: auto;
+        }
+    }
+    .myImage {
+        width: 5%;
+        min-width: 350px;
+        height: auto;
+    }
+</style>
+<head\>
+<body style ='background-color: rgb(157, 196, 223); font-family: Arial, Helvetica, sans-serif; color:#3F072C;'>
+<center>
+    <section>
+        <h1> MY PROFILE </h1>
+        <img class="myImage" src= 'macdonald.jpg' alt= 'My image' style="border-radius: 100%;" />
+    </section>
+    <section class="content">
+        <p> My name is <strong>MacDonald Anukwe</strong>.</p>
+        <p> I am a learner at <strong>Early Days School</strong>. </P>
+        <div style="text-align: center; margin-top: 40px;"></div>
+            <h3> MY HOBBIES </h3>
+            <p>My hobbies are:</p>
+            <ul style="display: inline-block; text-align: left; margin-top: -10px;">
+                <li> Playing games </li>
+                <li> Reading </li>
+                <!-- <li> Basketball </li>
+                <li> PS6 </li>
+                <li> VR </li> -->
+              </ul>
+        </div>
+        <section>
+            <P> I am a member of the <strong>School Computing Club</strong></p>
+            <p> I am learnt to create my profile website using <strong>HTML,CSS and Javascript</strong> </P>
+        </section>
+    </section>
+</center>
+</body>
+</html>
